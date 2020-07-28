@@ -4,7 +4,7 @@
   <img align="left" src="https://github-readme-stats.vercel.app/api?username=itning" />
 </a>
 <a href="https://github.com/itning">
-  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=itning" />
+  <img align="left" src="https://github-readme-stats.vercel.app/api/top-langs/?username=itning&layout=compact" />
 </a>
 
 <!--
