@@ -1,4 +1,4 @@
-### Hi there 👋 Welcome to my GitHub! [![HitCount](http://hits.dwyl.io/itning/itning.svg)](http://hits.dwyl.io/itning/itning)
+### Hi there 👋 Welcome to my GitHub! [![HitCount](http://hits.dwyl.com/itning/itning.svg)](http://hits.dwyl.com/itning/itning)
 
 <a href="https://github.com/itning?tab=repositories">
   <img align="left" src="https://github-readme-stats.vercel.app/api?username=itning" />
