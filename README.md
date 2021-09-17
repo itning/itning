@@ -1,4 +1,4 @@
-### Hi there 👋 Welcome to my GitHub! [![Hits](https://hitcount.itning.top?u=itning&r=itning)](https://github.com/itning)
+### Hi there 👋 Welcome to my GitHub! [![Hits](https://hitcount.itning.top?u=itning&r=itning)](https://github.com/itning/hit-count)
 
 <a href="https://github.com/itning?tab=repositories">
   <img align="left" src="https://github-readme-stats.vercel.app/api?username=itning" />
