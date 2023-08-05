@@ -1,31 +1,27 @@
 # from: https://github.com/DHDAXCW/DHDAXCW/blob/main/.github/workflows/main.yml
 name: generate snake
-
 on:
-
   schedule:
     - cron: "0 */12 * * *"
-
   workflow_dispatch:
-
   push:
     branches:
       - master
-
 jobs:
-
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
     steps:
-
       - name: generate
-        uses: Platane/snk@master
+        uses: Platane/snk@v3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           github_user_name: ${{ github.repository_owner }}
-          svg_out_path: dist/github-snake.svg
-
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
       - name: push
         uses: crazy-max/ghaction-github-pages@v2.5.0
         with:
